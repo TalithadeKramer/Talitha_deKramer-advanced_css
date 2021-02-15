@@ -1,0 +1,33 @@
+$width: 50px;
+$height: 50px;
+$transition-function: ease-in;
+$tranistion-duration: 100ms;
+
+div{
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: $width;
+    height: $height;
+    transition-duration: $tranistion-duration;
+    transition-timing-function: $transition-function;
+    float: right;
+}
+.fa_laptop-code{
+    background-color: #e17b77;
+}
+.fa_twitter{
+    background-color: #00aced;
+}
+.fa_linkedin-in{
+    background-color: #007bb6;
+}
+
+.fa_facebook{
+    background-color: #3b5998;
+}
+
+.fa_github{
+    background-color: #333;
+}

@@ -1,0 +1,149 @@
+div {
+  font-size: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 50px;
+  height: 50px;
+  -webkit-transition-duration: 100ms;
+          transition-duration: 100ms;
+  -webkit-transition-timing-function: ease-in;
+          transition-timing-function: ease-in;
+  float: right;
+}
+
+.fa_laptop-code {
+  background-color: #e17b77;
+}
+
+.fa_twitter {
+  background-color: #00aced;
+}
+
+.fa_linkedin-in {
+  background-color: #007bb6;
+}
+
+.fa_facebook {
+  background-color: #3b5998;
+}
+
+.fa_github {
+  background-color: #333;
+}
+
+.fa_laptop-code:hover {
+  width: 200px;
+}
+
+.fa_laptop-code:hover::after {
+  margin-left: 5px;
+  font-family: Helvetica;
+  font-size: 12px;
+  text-decoration: underline;
+  content: "Check out my blog!";
+}
+
+.fa_twitter:hover {
+  width: 200px;
+}
+
+.fa_twitter:hover::after {
+  margin-left: 5px;
+  font-family: Helvetica;
+  font-size: 12px;
+  text-decoration: underline;
+  content: "Follow me on Twitter";
+}
+
+.fa_facebook:hover {
+  width: 200px;
+}
+
+.fa_facebook:hover::after {
+  margin-left: 5px;
+  font-family: Helvetica;
+  font-size: 12px;
+  text-decoration: underline;
+  content: "Like my facebook!";
+}
+
+.fa_linkedin-in:hover {
+  width: 200px;
+}
+
+.fa_linkedin-in:hover::after {
+  margin-left: 5px;
+  font-family: Helvetica;
+  font-size: 12px;
+  text-decoration: underline;
+  content: "Connect om Linked-in";
+}
+
+.fa_github:hover {
+  width: 200px;
+}
+
+.fa_github:hover::after {
+  margin-left: 5px;
+  font-family: Helvetica;
+  font-size: 12px;
+  text-decoration: underline;
+  content: "See projects on Github";
+}
+
+.fa_laptop-code::before {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f5fc";
+}
+
+.fa_twitter::before {
+  font-family: "Font Awesome 5 Brands";
+  font-weight: 900;
+  content: "\f099";
+}
+
+.fa_linkedin-in::before {
+  font-family: "Font Awesome 5 Brands";
+  font-weight: 900;
+  content: "\f0e1";
+}
+
+.fa_facebook::before {
+  font-family: "Font Awesome 5 Brands";
+  font-weight: 900;
+  content: "\f39e";
+}
+
+.fa_github::before {
+  font-family: "Font Awesome 5 Brands";
+  font-weight: 900;
+  content: "\f09b";
+}
+
+body {
+  background-color: #c3cfe2;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+/*# sourceMappingURL=style.css.map */

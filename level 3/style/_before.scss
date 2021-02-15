@@ -1,0 +1,29 @@
+$fontfamily: "Font Awesome 5 Brands";
+$fontweight: 900;
+
+.fa_laptop-code::before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: $fontweight;
+    content: "\f5fc";
+}
+
+.fa_twitter::before {
+    font-family: $fontfamily;
+    font-weight: $fontweight;
+    content: "\f099";
+}
+.fa_linkedin-in::before {
+    font-family: $fontfamily;
+    font-weight: $fontweight;
+    content: "\f0e1";
+}
+.fa_facebook::before {
+    font-family: $fontfamily;
+    font-weight: $fontweight;
+    content: "\f39e";
+}
+.fa_github::before {
+    font-family: $fontfamily;
+    font-weight: $fontweight;
+    content: "\f09b";
+}

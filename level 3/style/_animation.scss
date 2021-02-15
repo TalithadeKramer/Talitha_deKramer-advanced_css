@@ -1,0 +1,57 @@
+$fontfamily-after: Helvetica;
+$fontsize-after: 12px;
+$margin-left: 5px;
+$text-decoration: underline;
+
+.fa_laptop-code:hover{
+    width: 200px;
+    &::after{
+        margin-left: $margin-left;
+        font-family: $fontfamily-after;
+        font-size: $fontsize-after;
+        text-decoration:$text-decoration;
+        content: "Check out my blog!";
+    }
+}
+.fa_twitter:hover{
+    width: 200px;
+    &::after{
+        margin-left: $margin-left;
+        font-family: $fontfamily-after;
+        font-size: $fontsize-after;
+        text-decoration:$text-decoration;
+        content: "Follow me on Twitter";
+}
+}
+.fa_facebook:hover{
+    width: 200px;
+    &::after{
+        margin-left: $margin-left;
+        font-family: $fontfamily-after;
+        font-size: $fontsize-after;
+        text-decoration:$text-decoration;
+        content: "Like my facebook!";
+}
+}
+
+.fa_linkedin-in:hover{
+    width: 200px;
+    &::after{
+        margin-left: $margin-left;
+        font-family: $fontfamily-after;
+        font-size: $fontsize-after;
+        text-decoration:$text-decoration;
+        content: "Connect om Linked-in";
+}
+}
+
+.fa_github:hover{
+    width: 200px;
+    &::after{
+        margin-left: $margin-left;
+        font-family: $fontfamily-after;
+        font-size: $fontsize-after;
+        text-decoration:$text-decoration;
+        content: "See projects on Github";
+}
+}
